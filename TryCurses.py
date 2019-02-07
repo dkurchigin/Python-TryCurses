@@ -3,6 +3,8 @@ import curses.textpad
 import time
 
 stdscr = curses.initscr()
+stdscr.resize(39,90)
+stdscr.refresh()
 
 def draw_background_window():
     begin_x = 0
